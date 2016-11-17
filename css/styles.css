@@ -1,0 +1,146 @@
+.mdl-button--floating-action {
+    position: fixed;
+    right: 24px;
+    bottom: 124px;
+    padding-top: 24px;
+    margin-bottom: 0;
+    z-index: 998;
+}
+
+.mdl-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+
+.mdl-card-square > .mdl-card__title {
+  color: #fff;
+  background-color: #ff5252;
+}
+
+.mdl-button--white {
+    color: #ffffff;
+}
+
+#toDoWindow, #toBringWindow, #addTripWindow {
+    display: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 600px;
+    background-color: #ffffff;
+}
+
+.card {
+    padding: 25px;
+    padding-top: 40px;
+    width: 320px;
+}
+
+#toDoExpanded, #toBringExpanded, #tripExpanded {
+    display: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 600px;
+    background-color: #ffffff;
+}
+
+.description {
+    overflow: scroll;
+}
+
+.logoutIcon:hover, .home {
+    cursor: pointer;
+}
+
+#username:hover {
+    cursor: default;
+}
+
+.itemDetail {
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.itemSpan {
+    height: 24px;
+}
+
+.mdl-dialog__content {
+    padding-top: 0px;
+}
+
+.mdl-dialog__actions {
+    margin-bottom: 20px;
+}
+
+.expandedNotes {
+    margin-bottom: 0px;
+    color: rgba(0,0,0,.54);
+}
+
+.coloredBorder {
+    border-color: #4054B2;
+    border-style: solid;
+    border-width: 4px;
+    padding: 50px;
+}
+
+.coloredBorderMain {
+    border-color: #4054B2;
+    border-style: solid;
+    border-width: 4px;
+    padding: 50px;
+}
+
+.regButton {
+    margin-top: 10px;
+} 
+
+.modalCardTop {
+  color: #fff;
+  background-color: #ff5252;
+}
+
+.mdlFlex {
+	display: flex;
+	flex-direction: column;
+}
+
+#toDoChecklists, #toBringChecklists, #tripCards {
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul#developers {
+    align-items: center;
+    margin-left: -40px;
+}
+
+li {
+    list-style: none;
+}
+
+#about-container {
+    position: relative;
+    height: 75vh;
+}
+
+#about {
+    color: #fff;
+    text-align: center;
+}
+
+.aboutus {
+    font-family: "Helvetica", sans-serif;
+    font-size: 1.5em;
+    line-height: 1.3em;
+}
+
+#emptyAList, #emptyIList, #emptyTList {
+    vertical-align: middle;
+    line-height: 200px;
+    text-align: center;
+}
